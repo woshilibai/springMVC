@@ -3,7 +3,6 @@ package com.ifunyoung.controller;
 import com.alibaba.fastjson.JSONObject;
 import com.ifunyoung.model.Person;
 import com.ifunyoung.model.User;
-
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
@@ -16,7 +15,6 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
-
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
