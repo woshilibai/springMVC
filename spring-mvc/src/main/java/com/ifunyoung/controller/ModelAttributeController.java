@@ -61,7 +61,6 @@ public class ModelAttributeController {
     public String putUser(Map<String, Object> model, SessionStatus sessionStatus){
         Person  p = new Person(22,"ifunyoung",new Date());
         model.put("sessionUser",p);
-        System.out.println("****************************************");
         // 清除model属性
 //        sessionStatus.setComplete();
         return "hello";
